@@ -1,8 +1,8 @@
 {
-  "buildCommand": "npm run build",
-  "outputDirectory": "dist",
+  "buildCommand": "cd rutvik-jadhav-portfolio-main && npm run build",
+  "outputDirectory": "rutvik-jadhav-portfolio-main/dist/client",
   "framework": "vite",
-  "routes": [
-    { "src": "/(.*)", "dest": "/index.html" }
+  "rewrites": [
+    { "source": "/*", "destination": "/index.html" }
   ]
 }
