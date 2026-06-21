@@ -1,15 +1,21 @@
 {
   "name": "tanstack_start_ts",
   "private": true,
+  "workspaces": [
+    "rutvik-jadhav-portfolio-main"
+  ],
   "sideEffects": false,
   "type": "module",
+  "homepage": "https://rjcoder2.github.io/rutvik-jadhav-portfolio",
   "scripts": {
-    "dev": "vite dev",
-    "build": "vite build --mode static",
-    "build:dev": "vite build --mode development",
-    "preview": "vite preview",
-    "lint": "eslint .",
-    "format": "prettier --write ."
+    "dev": "cd rutvik-jadhav-portfolio-main && npm run dev",
+    "build": "cd rutvik-jadhav-portfolio-main && npm run build",
+    "build:dev": "cd rutvik-jadhav-portfolio-main && npm run build:dev",
+    "preview": "cd rutvik-jadhav-portfolio-main && npm run preview",
+    "lint": "cd rutvik-jadhav-portfolio-main && npm run lint",
+    "format": "cd rutvik-jadhav-portfolio-main && npm run format",
+    "predeploy": "npm run build",
+    "deploy": "npx gh-pages -d rutvik-jadhav-portfolio-main/dist/client"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.2.2",
@@ -77,6 +83,7 @@
     "eslint-plugin-prettier": "^5.2.6",
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.20",
+    "gh-pages": "^6.3.0",
     "globals": "^15.15.0",
     "nitro": "3.0.260603-beta",
     "prettier": "^3.7.3",
