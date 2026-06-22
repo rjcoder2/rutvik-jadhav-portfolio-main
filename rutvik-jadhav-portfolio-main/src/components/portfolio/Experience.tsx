@@ -87,7 +87,7 @@ export function Experience() {
             <p className="text-xs text-muted-text">Internship</p>
           </div>
           <div className="rounded-lg border border-divider bg-background p-4 text-center group hover:border-primary/50 transition-colors">
-            <p className="text-2xl font-bold text-primary">4+</p>
+            <p className="text-2xl font-bold text-primary">2+</p>
             <p className="text-xs text-muted-text">Projects</p>
           </div>
         </div>

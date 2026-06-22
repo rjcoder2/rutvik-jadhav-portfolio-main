@@ -208,7 +208,7 @@ export function Skills() {
             <div className="flex justify-center mb-2">
               <BadgeCheck className="h-6 w-6 text-primary/70 group-hover:text-primary transition-colors" />
             </div>
-            <p className="text-2xl font-bold text-primary">4+</p>
+            <p className="text-2xl font-bold text-primary">5+</p>
             <p className="text-xs text-muted-text">Certifications</p>
           </div>
           
@@ -254,7 +254,7 @@ export function Skills() {
             </h3>
           </div>
           <div className="mt-4 flex flex-wrap gap-3">
-            {["Machine Learning", "AWS Cloud", "Data Engineering", "Advanced Python"].map((topic) => (
+            {["Data Analytics", " Power BI Dashboard Design", "SQL & Database Management", "Python for Data Analysis"].map((topic) => (
               <span
                 key={topic}
                 className="rounded-full border border-primary/30 bg-primary/10 px-4 py-2 text-sm text-foreground"

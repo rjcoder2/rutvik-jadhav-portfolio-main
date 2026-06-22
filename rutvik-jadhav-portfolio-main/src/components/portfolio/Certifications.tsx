@@ -26,20 +26,30 @@ const certifications: Certification[] = [
     name: "Data Science 101",
     issuer: "IBM (Cognitive Class)",
     date: "May 2026",
-    verifyUrl: "https://courses.cognitivedass.ai/certificates/329b370da4a94202abfa65b6303b6794",
-    tag: "Data Science",
+    verifyUrl: "https://courses.cognitiveclass.ai/certificates/329b370da4a94202abfa65b6303b6794",    tag: "Data Science",
     icon: <Award className="h-5 w-5" />,
     skills: ["Data Science", "Python", "Analytics"],
   },
   {
-    name: "Introduction to jQuery",
-    issuer: "Online Platform",
-    date: "November 2025",
-    credentialId: "9416646",
-    tag: "Web Development",
-    icon: <Globe className="h-5 w-5" />,
-    skills: ["jQuery", "JavaScript", "Web Development"],
-  },
+  name: "Getting Started with Tableau",
+  issuer: "Analytics Vidhya",
+  date: "April 2026",
+  credentialId: "c0uvwojwg5",
+  verifyUrl: "https://courses.analyticsvidhya.com/certificates/c0uvwojwg5",
+  tag: "Data Visualization",
+  icon: <Award className="h-5 w-5" />,
+  skills: ["Tableau", "Data Visualization", "Business Intelligence"],
+},
+ {
+  name: "Introduction to jQuery",
+  issuer: "Simplilearn",
+  date: "November 2025",
+  credentialId: "9416646",
+  verifyUrl: "https://lms.simplilearn.com/courses/6379/Introduction-to-jQuery/certificate/download-skillup",
+  tag: "Web Development",
+  icon: <Globe className="h-5 w-5" />,
+  skills: ["jQuery", "JavaScript", "Web Development"],
+},
   {
     name: "Digital Marketing Internship",
     issuer: "Scaler Vision Media",
@@ -134,11 +144,11 @@ export function Certifications() {
         {/* Certification Stats */}
         <div className="mt-12 grid grid-cols-2 gap-4 md:grid-cols-4">
           <div className="rounded-lg border border-divider bg-surface p-4 text-center group hover:border-primary/50 transition-colors">
-            <p className="text-2xl font-bold text-primary">4</p>
+            <p className="text-2xl font-bold text-primary">5</p>
             <p className="text-xs text-muted-text">Certifications</p>
           </div>
           <div className="rounded-lg border border-divider bg-surface p-4 text-center group hover:border-primary/50 transition-colors">
-            <p className="text-2xl font-bold text-primary">3</p>
+            <p className="text-2xl font-bold text-primary">5</p>
             <p className="text-xs text-muted-text">Issuers</p>
             <p className="text-[10px] text-muted-text/60">IBM, Scaler Vision, Online</p>
           </div>
